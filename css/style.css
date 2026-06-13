@@ -104,13 +104,14 @@ h1,h2,h3,h4,h5,h6{line-height:1.2;font-weight:700;color:var(--gray-900)}
 
 /* ---------- NAV ---------- */
 #site-header{position:sticky;top:44px;z-index:1000;background:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(0,0,0,.08),0 4px 16px rgba(0,0,0,.1)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:.65rem 1.5rem;max-width:var(--max-w);margin:0 auto}
-.nav-brand{display:flex;align-items:center;gap:.75rem;text-decoration:none;transition:opacity .2s}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:.4rem 1.25rem;max-width:var(--max-w);margin:0 auto;gap:.75rem}
+.nav-brand{display:flex;align-items:center;gap:.5rem;text-decoration:none;transition:opacity .2s;flex-shrink:0}
 .nav-brand:hover{opacity:.9}
-.nav-logo{width:60px;height:60px;object-fit:contain;border-radius:var(--radius-xs)}
-.nav-brand-text{line-height:1.3;white-space:nowrap}
-.nav-brand-text .name,.nav-brand-text .sub{display:inline;font-size:.88rem;font-weight:900;color:var(--navy);letter-spacing:-.01em}
-.nav-brand-text .sub::before{content:' '}
+.nav-logo{width:46px;height:46px;object-fit:contain;border-radius:var(--radius-xs)}
+.nav-brand-text{line-height:1.2;white-space:nowrap}
+.nav-brand-text .name{display:block;font-size:.76rem;font-weight:900;color:var(--navy);letter-spacing:-.01em}
+.nav-brand-text .sub{display:block;font-size:.66rem;font-weight:700;color:var(--gray-500);letter-spacing:.04em;text-transform:uppercase}
+.nav-brand-text .sub::before{content:''}
 
 /* Hamburger */
 .hamburger{background:none;border:none;cursor:pointer;padding:.5rem;display:flex;flex-direction:column;gap:5px}
