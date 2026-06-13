@@ -1,0 +1,2583 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="html__utility--find-a-pro" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<style>.hidden{display:none}@media(min-width: 768px){.mds-hidden{display:none}}@media(min-width: 960px){.md-hidden{display:none}}@media(min-width: 1280px){.lg-hidden{display:none}}@media(min-width: 1440px){.xl-hidden{display:none}}.inline{display:inline}@media(min-width: 768px){.mds-inline{display:inline}}@media(min-width: 960px){.md-inline{display:inline}}@media(min-width: 1280px){.lg-inline{display:inline}}@media(min-width: 1440px){.xl-inline{display:inline}}.inline-block{display:inline-block}@media(min-width: 768px){.mds-inline-block{display:inline-block}}@media(min-width: 960px){.md-inline-block{display:inline-block}}@media(min-width: 1280px){.lg-inline-block{display:inline-block}}@media(min-width: 1440px){.xl-inline-block{display:inline-block}}.block{display:block}@media(min-width: 768px){.mds-block{display:block}}@media(min-width: 960px){.md-block{display:block}}@media(min-width: 1280px){.lg-block{display:block}}@media(min-width: 1440px){.xl-block{display:block}}.inline-flex{display:inline-flex}@media(min-width: 768px){.mds-inline-flex{display:inline-flex}}@media(min-width: 960px){.md-inline-flex{display:inline-flex}}@media(min-width: 1280px){.lg-inline-flex{display:inline-flex}}@media(min-width: 1440px){.xl-inline-flex{display:inline-flex}}.flex{display:flex}@media(min-width: 768px){.mds-flex{display:flex}}@media(min-width: 960px){.md-flex{display:flex}}@media(min-width: 1280px){.lg-flex{display:flex}}@media(min-width: 1440px){.xl-flex{display:flex}}.grid{display:grid}@media(min-width: 768px){.mds-grid{display:grid}}@media(min-width: 960px){.md-grid{display:grid}}@media(min-width: 1280px){.lg-grid{display:grid}}@media(min-width: 1440px){.xl-grid{display:grid}}.static{position:static}@media(min-width: 768px){.mds-static{position:static}}@media(min-width: 960px){.md-static{position:static}}@media(min-width: 1280px){.lg-static{position:static}}@media(min-width: 1440px){.xl-static{position:static}}.relative{position:relative}@media(min-width: 768px){.mds-relative{position:relative}}@media(min-width: 960px){.md-relative{position:relative}}@media(min-width: 1280px){.lg-relative{position:relative}}@media(min-width: 1440px){.xl-relative{position:relative}}.absolute{position:absolute}@media(min-width: 768px){.mds-absolute{position:absolute}}@media(min-width: 960px){.md-absolute{position:absolute}}@media(min-width: 1280px){.lg-absolute{position:absolute}}@media(min-width: 1440px){.xl-absolute{position:absolute}}.fixed{position:fixed}@media(min-width: 768px){.mds-fixed{position:fixed}}@media(min-width: 960px){.md-fixed{position:fixed}}@media(min-width: 1280px){.lg-fixed{position:fixed}}@media(min-width: 1440px){.xl-fixed{position:fixed}}.justify-start{justify-content:flex-start}@media(min-width: 768px){.mds-justify-start{justify-content:flex-start}}@media(min-width: 960px){.md-justify-start{justify-content:flex-start}}@media(min-width: 1280px){.lg-justify-start{justify-content:flex-start}}@media(min-width: 1440px){.xl-justify-start{justify-content:flex-start}}.justify-end{justify-content:flex-end}@media(min-width: 768px){.mds-justify-end{justify-content:flex-end}}@media(min-width: 960px){.md-justify-end{justify-content:flex-end}}@media(min-width: 1280px){.lg-justify-end{justify-content:flex-end}}@media(min-width: 1440px){.xl-justify-end{justify-content:flex-end}}.justify-center{justify-content:center}@media(min-width: 768px){.mds-justify-center{justify-content:center}}@media(min-width: 960px){.md-justify-center{justify-content:center}}@media(min-width: 1280px){.lg-justify-center{justify-content:center}}@media(min-width: 1440px){.xl-justify-center{justify-content:center}}.justify-between{justify-content:space-between}@media(min-width: 768px){.mds-justify-between{justify-content:space-between}}@media(min-width: 960px){.md-justify-between{justify-content:space-between}}@media(min-width: 1280px){.lg-justify-between{justify-content:space-between}}@media(min-width: 1440px){.xl-justify-between{justify-content:space-between}}.justify-around{justify-content:space-around}@media(min-width: 768px){.mds-justify-around{justify-content:space-around}}@media(min-width: 960px){.md-justify-around{justify-content:space-around}}@media(min-width: 1280px){.lg-justify-around{justify-content:space-around}}@media(min-width: 1440px){.xl-justify-around{justify-content:space-around}}.items-start{align-items:flex-start}@media(min-width: 768px){.mds-items-start{align-items:flex-start}}@media(min-width: 960px){.md-items-start{align-items:flex-start}}@media(min-width: 1280px){.lg-items-start{align-items:flex-start}}@media(min-width: 1440px){.xl-items-start{align-items:flex-start}}.items-end{align-items:flex-end}@media(min-width: 768px){.mds-items-end{align-items:flex-end}}@media(min-width: 960px){.md-items-end{align-items:flex-end}}@media(min-width: 1280px){.lg-items-end{align-items:flex-end}}@media(min-width: 1440px){.xl-items-end{align-items:flex-end}}.items-center{align-items:center}@media(min-width: 768px){.mds-items-center{align-items:center}}@media(min-width: 960px){.md-items-center{align-items:center}}@media(min-width: 1280px){.lg-items-center{align-items:center}}@media(min-width: 1440px){.xl-items-center{align-items:center}}.flex-col{flex-direction:column}@media(min-width: 768px){.mds-flex-col{flex-direction:column}}@media(min-width: 960px){.md-flex-col{flex-direction:column}}@media(min-width: 1280px){.lg-flex-col{flex-direction:column}}@media(min-width: 1440px){.xl-flex-col{flex-direction:column}}.flex-row{flex-direction:row}@media(min-width: 768px){.mds-flex-row{flex-direction:row}}@media(min-width: 960px){.md-flex-row{flex-direction:row}}@media(min-width: 1280px){.lg-flex-row{flex-direction:row}}@media(min-width: 1440px){.xl-flex-row{flex-direction:row}}.flex-col-rev{flex-direction:column-reverse}@media(min-width: 768px){.mds-flex-col-rev{flex-direction:column-reverse}}@media(min-width: 960px){.md-flex-col-rev{flex-direction:column-reverse}}@media(min-width: 1280px){.lg-flex-col-rev{flex-direction:column-reverse}}@media(min-width: 1440px){.xl-flex-col-rev{flex-direction:column-reverse}}.flex-row-rev{flex-direction:row-reverse}@media(min-width: 768px){.mds-flex-row-rev{flex-direction:row-reverse}}@media(min-width: 960px){.md-flex-row-rev{flex-direction:row-reverse}}@media(min-width: 1280px){.lg-flex-row-rev{flex-direction:row-reverse}}@media(min-width: 1440px){.xl-flex-row-rev{flex-direction:row-reverse}}.flex-wrap{flex-wrap:wrap}@media(min-width: 768px){.mds-flex-wrap{flex-wrap:wrap}}@media(min-width: 960px){.md-flex-wrap{flex-wrap:wrap}}@media(min-width: 1280px){.lg-flex-wrap{flex-wrap:wrap}}@media(min-width: 1440px){.xl-flex-wrap{flex-wrap:wrap}}.flex-nowrap{flex-wrap:nowrap}@media(min-width: 768px){.mds-flex-nowrap{flex-wrap:nowrap}}@media(min-width: 960px){.md-flex-nowrap{flex-wrap:nowrap}}@media(min-width: 1280px){.lg-flex-nowrap{flex-wrap:nowrap}}@media(min-width: 1440px){.xl-flex-nowrap{flex-wrap:nowrap}}.container{padding-right:1.5rem;padding-left:1.5rem;max-width:100rem;margin-right:auto;margin-left:auto}@media(min-width: 60rem){.container{padding-right:2.5rem;padding-left:2.5rem}}@media(min-width: 80rem){.container{padding-right:4rem;padding-left:4rem}}.container--no-padding{padding-right:0;padding-left:0}.container--full{max-width:none}.w-full{width:100%}.h-full{height:100%}.visually-hidden.focusable:active,.visually-hidden.focusable:focus{position:static !important;overflow:visible;clip:auto;width:auto;height:auto}.invisible{visibility:hidden}.section{display:flex;flex-direction:column}@media(min-width: 60rem){.layout-container{padding-top:6.25rem}}@media(min-width: 80rem){.layout-container{padding-top:7.875rem}}
+</style>
+<script type="text/javascript">function OptanonWrapper() {
+  Object.entries(window.drupalSettings.jsScripts).forEach(([script, category]) => {
+    // Exclude scripts that contain "sharethis.com".
+    if (!script.includes('sharethis.com')) {
+      OneTrust.InsertScript(script, 'body', null, null, category);
+    }
+  });
+}</script>
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<meta name="description" content="CertainTeed is North America’s leading brand of exterior and interior products, including roofing, siding, trim, insulation, gypsum, and ceilings." />
+<link rel="shortlink" href="https://www.certainteed.com/" />
+<link rel="canonical" href="https://www.certainteed.com/" />
+<meta property="og:image" content="https://www.certainteed.com/sites/drupalvm.dev/themes/certainteed/ct_bootstrap/images/CTOGImage1_1200x630.jpg" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="b43ffbf6-e6a1-4577-a186-9db0120bec4d"></script>
+<script></script>
+<link rel="icon" href="/sites/default/files/favicon-48x48.png" type="image/png" />
+
+      <!-- Start Google Site Verification code -->
+      <meta name="google-site-verification" content="uZb_3mdhAFVVbO2lU1cHa5wdQXInO6sab9wgWwPIPYc" />
+      <!-- End Google Site Verification code -->
+      <!--UserWay Accessibility script -->
+      <script>
+        (function(d){
+          var s = d.createElement("script");
+          s.setAttribute("data-account", "klq7KbDiT8");
+          s.setAttribute("src", "https://accessibilityserver.org/widget.js");
+          (d.body || d.head).appendChild(s);
+        })(document)
+      </script>
+      <noscript>
+        Please ensure Javascript is enabled for purposes of <a href="https://accessibilityserver.org"website> accessibility</a>
+      </noscript>
+      <!-- End UserWay Accessibility script -->
+      <!-- Start VWO Async SmartCode -->
+      <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+      <script type='text/javascript' id='vwoCode'>
+      window._vwo_code || (function() {
+      var account_id=1012219,
+      version=2.1,
+      settings_tolerance=2000,
+      hide_element='body',
+      hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+      /* DO NOT EDIT BELOW THIS LINE */
+      f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='vwo'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('vwo'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={nonce:v&&v.nonce,use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){if(performance.getEntriesByName('first-contentful-paint')[0]){return''}return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){if(!f){f=true;var t=d.getElementById('_vis_opt_path_hides');if(t)t.parentNode.removeChild(t);if(e)(new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e}},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript';if(e.src){t.src=e.src}else{t.text=e.text}v&&t.setAttribute('nonce',v.nonce);d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){var n=this.getSettings(),i=d.createElement('script'),r=this;t=t||{};if(n){i.textContent=n;d.getElementsByTagName('head')[0].appendChild(i);if(!w.VWO||VWO.caE){stT.removeItem(cK);r.load(e)}}else{var o=new XMLHttpRequest;o.open('GET',e,true);o.withCredentials=!t.dSC;o.responseType=t.responseType||'text';o.onload=function(){if(t.onloadCb){return t.onloadCb(o,e)}if(o.status===200||o.status===304){_vwo_code.addScript({text:o.responseText})}else{_vwo_code.finish('&e=loading_failure:'+e)}};o.onerror=function(){if(t.onerrorCb){return t.onerrorCb(e)}_vwo_code.finish('&e=loading_failure:'+e)};o.send()}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('vwo_disable')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t;if(this.hide_element()!=='body'){t=d.createElement('style');var n=this.hide_element(),i=n?n+this.hide_element_style():'',r=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');v&&t.setAttribute('nonce',v.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));r.appendChild(t)}else{t=d.getElementsByTagName('head')[0];var i=d.createElement('div');i.style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;';i.setAttribute('id','_vis_opt_path_hides');i.classList.add('_vis_hide_layer');t.parentNode.insertBefore(i,t.nextSibling)}var o=window._vis_opt_url||d.URL,s='https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(o)+'&vn='+version;if(w.location.search.indexOf('_vwo_xhr')!==-1){this.addScript({src:s})}else{this.load(s+'&x=true')}}};w._vwo_code=code;code.init();})();
+      </script>
+      <!-- End VWO Async SmartCode -->
+              <script async src="https://apps.bazaarvoice.com/deployments/saintgobain/main_site/production/en_US/bv.js"></script>
+            <title>Let&#039;s Build for Tomorrow. Today | CertainTeed</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/certainteed/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/certainteed/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/themes/custom/certainteed/favicon/favicon-16x16.png">
+      <link rel="manifest" href="/themes/custom/certainteed/favicon/site.webmanifest">
+      <link rel="mask-icon" href="/themes/custom/certainteed/favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" type="image/png" sizes="48x48" href="/themes/custom/certainteed/favicon-48x48.png">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" media="all" href="/sites/default/files/css/css_4ZzSVi6WO-b0XxYu9qjU3KRwmaLDl8_dRgJxG_FLjBk.css?delta=0&amp;language=en&amp;theme=certainteed&amp;include=eJxt0VFyxCAIBuALhc1Tz5MhSiNdIhYx2dy-2U53Wnf76PczCBrIHDk7URyDI8yYM9kQ_nDU0FbKXiEa7k_hO6E3owi1CHsXLaIzSk-qixAUwUAVsLkGXYuQU1eWyPS_SZJ6LdrfslJkBF5x6XusmqMxZliMY5d8Ng5XEM7X2nlNaASe-InZaedIgHJqHzl6X-x0c9iPyvuxdEFzPt_ngIxb59vZWSH5Km9DUKMxWisoF_zA23A2u4_5sJ_jIHho8ylyDbqRHaNmCiqv7rvevaDhYlhSfXT6lUvLpc3CNVEcHqtO36uOnM8f3Zj2OkV0nOhW9OQX-QJYH-NC" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_s18kO1YOOOkFZKigGrJbmMDUZIvAVu-khGsz9YDLcpw.css?delta=1&amp;language=en&amp;theme=certainteed&amp;include=eJxt0VFyxCAIBuALhc1Tz5MhSiNdIhYx2dy-2U53Wnf76PczCBrIHDk7URyDI8yYM9kQ_nDU0FbKXiEa7k_hO6E3owi1CHsXLaIzSk-qixAUwUAVsLkGXYuQU1eWyPS_SZJ6LdrfslJkBF5x6XusmqMxZliMY5d8Ng5XEM7X2nlNaASe-InZaedIgHJqHzl6X-x0c9iPyvuxdEFzPt_ngIxb59vZWSH5Km9DUKMxWisoF_zA23A2u4_5sJ_jIHho8ylyDbqRHaNmCiqv7rvevaDhYlhSfXT6lUvLpc3CNVEcHqtO36uOnM8f3Zj2OkV0nOhW9OQX-QJYH-NC" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_ZtHq-ulZYG0s0v1ItAgK59ADgIk1Dr7QRKNZUs4NXUo.css?delta=2&amp;language=en&amp;theme=certainteed&amp;include=eJxt0VFyxCAIBuALhc1Tz5MhSiNdIhYx2dy-2U53Wnf76PczCBrIHDk7URyDI8yYM9kQ_nDU0FbKXiEa7k_hO6E3owi1CHsXLaIzSk-qixAUwUAVsLkGXYuQU1eWyPS_SZJ6LdrfslJkBF5x6XusmqMxZliMY5d8Ng5XEM7X2nlNaASe-InZaedIgHJqHzl6X-x0c9iPyvuxdEFzPt_ngIxb59vZWSH5Km9DUKMxWisoF_zA23A2u4_5sJ_jIHho8ylyDbqRHaNmCiqv7rvevaDhYlhSfXT6lUvLpc3CNVEcHqtO36uOnM8f3Zj2OkV0nOhW9OQX-QJYH-NC" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_UesDTfOHBBpcUUDZZJhMuEKWxLloeFSMRiACk3W2DzY.css?delta=4&amp;language=en&amp;theme=certainteed&amp;include=eJxt0VFyxCAIBuALhc1Tz5MhSiNdIhYx2dy-2U53Wnf76PczCBrIHDk7URyDI8yYM9kQ_nDU0FbKXiEa7k_hO6E3owi1CHsXLaIzSk-qixAUwUAVsLkGXYuQU1eWyPS_SZJ6LdrfslJkBF5x6XusmqMxZliMY5d8Ng5XEM7X2nlNaASe-InZaedIgHJqHzl6X-x0c9iPyvuxdEFzPt_ngIxb59vZWSH5Km9DUKMxWisoF_zA23A2u4_5sJ_jIHho8ylyDbqRHaNmCiqv7rvevaDhYlhSfXT6lUvLpc3CNVEcHqtO36uOnM8f3Zj2OkV0nOhW9OQX-QJYH-NC" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/122791","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJyNkcF24yAMRX_IhNV8D0cG1ajBiBHCjvv1g5NJOrRdzIYj3acjpCePokBZEYP1CmaGnFEm_w8O7NuKWasJAvsX8Q1Bm2AwtSTSQVoSz5BGxLwkNCWBx2qgKXteS0LFoSyi8E-TRNZaePxlxUBgaIVl7LFyDkKQzSIUBuV3I381ifK1DrxGEDQa6QtW0JEo3tTsR6X9WAahKXUTDpNhG_hGAdlEXdOvyavzLGgDdcfgcPdpXI1UXlLs5c7Xzc1NlfOLN12dCvjraYu6AAq9A8rLaXVvlIMDJ1jskLn3esoLcmIPSpztMzg5Z1RpVe0zmD6bzxhhI5Y69bVP12yQViBd_qbT46hOYbFLf77mF3iH2wjXqbfm1leg6nlDOc6PPafvXHd-8I_Dns9UQGARKLE-5_gkl5ZLmxPViGG6n_O8pn1FP7FCp599F5QM6eH4_xfuvfSoiqudoeK0Ee71fhiHt8Ki9hv5A_8sWx8","theme":"certainteed","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_environment":false},"tagIds":["GTM-KVG6F2P"]},"algoliaSearch":{"globalSearch":["{\u0022algolia_index\u0022:\u0022prod_ctd_search\u0022,\u0022replicas\u0022:[\u0022prod_ctd_search_replica_recent\u0022,\u0022prod_ctd_search_replica_A-Z\u0022,\u0022prod_ctd_search_replica_Z-A\u0022]}"],"facet":{"facetKey":["field_rating","certifications","field_agent_services","field_number_of_reviews","field_region_tid","field_region_name","field_application_name","field_project_type_name","field_building_type_name","field_product_category_name","color","title","usage","value","width","design","finish","height","length","country","profile","material","region_id","thickness","appearance","quick_ship","accessories","application","perforation","performance","edge_profile","l1_hierarchy","l2_hierarchy","product_type","baluster_type","material_type","certifications","document_region","document_category","document_language","l3_product_family","application_method","system_performance","joint_compound_type","performance_drywall","field_product_category","impact_resistant_rating","field_is_specialty_ceiling","sustainability_certifications","field_role","field_style","field_topic","field_region","field_country","ct_bundle_label","field_application","field_localization","field_project_type","media_field_region","field_building_type","field_resource_type","field_product_category","media_field_doc_category","media_field_region_top_abbreviation"]}},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.80000000000000004,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"responsive":{"breakpoints":{"certainteed.mobile":"all and (max-width: 59.999em)","certainteed.small-mobile":"all and (max-width: 30em)","certainteed.tablet":"all and (min-width: 60em)","certainteed.desktop":"all and (min-width: 80em)"}},"sharethis":{"publisher":"dr-807bd416-fe47-a8ea-74eb-e5ea4fd8cf7c","version":"5x","doNotCopy":true,"hashAddressBar":false,"doNotHash":true},"submittal_NA":{"title":"Some of your documents cannot be added to a Submittal","body":"\u003Cp\u003EWe recommend downloading or sharing these documents now.\u0026nbsp;\u003C\/p\u003E\u003Cp\u003EThey\u2019ll remain in your Documents List.\u003C\/p\u003E"},"empty":{"title":"Your List Is Currently Empty","body":"","icon":"\/sites\/default\/files\/empty-document.svg"},"context":{"page_title":"Home Page","page_url":"\/home","page_url_clean":"www.certainteed.com\/home","product_name":"undefined","date_launched":"08042023","date_last_updated":"04172026","business_unit":"undefined","digital_tool_name":"undefined","page_type":"undefined","product_category":"undefined","website_country":"undefined"},"ctGeolocation":{"pageExistOnAllDomains":true,"alertsData":{"notice":{"header":"Update Location","message":"Enter your Postal\/Zip Code to provide the most accurate product availability and information.","cta":{"text":"Enter Postal\/Zip Code"}},"product_not_available":{"header":"Product not available","message":"This product isn\u2019t available in the project location you entered. Please edit your location or \u003Ca href=\u0022#\u0022\u003Econtact us for support\u003C\/a\u003E.","cta":{"text":"Edit location"}},"error":{"header":"ZIP error alert header","message":"ZIP error alert message"},"zip_prompt":{"message":"The code entered does not match the currently selected country. Would you like to browse the COUNTRY, LANGUAGE site instead?","cta_yes":{"text":"Yes, take me to the COUNTRY, LANGUAGE site"},"cta_no":{"text":"No, stay on the CURRENT_CONTRY, CURRENT_LANG site"}},"locale_prompt":{"message":"Your detected country and language do not match the currently selected values. Would you like to browse the COUNTRY, LANGUAGE site instead?","cta_yes":{"text":"Yes, take me to the COUNTRY, LANGUAGE site"},"cta_no":{"text":"No, stay on the current site"}}},"siteLocale":{"server":"prod","country":"US","language":"en","ctbuRegionsCountryMapping":{"us":"USA","ca":"Canada"}},"domains":{"us":{"en_us":"https:\/\/www.certainteed.com","es_us":"https:\/\/es.certainteed.com"},"ca":{"en_ca":"https:\/\/www.certainteed.ca","fr_ca":"https:\/\/fr.certainteed.ca"}},"supportedLocales":{"US":["en","es"],"CA":["en","fr"]},"countryFullNames":{"us":"United States","ca":"Canada"},"languageFullNames":{"en":"English","fr":"French","es":"Spanish"},"defaultSearchablePlaceTypes":["locality","country","postal_code","administrative_area_level_1"],"googleMapApiKey":"QUl6YVN5QTl2UEtNZDFHa2M2UVh6QWRWWWphM29jWU1QTEhWdE4w"},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":false},"api":{"mega-menu":"\/api\/mega-menu\/mega-menu","footer":"\/api\/footer\/1"},"quick_ship":null,"utmParams":[],"oktaCustomer":{"isAuthenticated":false},"environment":"Prod","jsScripts":{"https:\/\/ws.sharethis.com\/button\/buttons.js":"C0004"},"algolia":{"app_id":"V0tYM1gwS1BOMQ==","api_key":"ZTUxZjc0YWVlNWY0YWI1YTdiMjRjMzVjNzQ2ZTlmZmE="},"ct_find_a_rep":{"find_a_rep":false},"productComparison":{"ignoreCategories":["1","66","706"]},"submittalTool":{"initialStepUrl":"\/submittal-builder"},"savedSubmittals":{"empty_state_text":"Your List is Currently Empty","cta_text":"Build New Submittal"},"keyDocumentsLanguageSelectorTooltip":"Based on your site settings, we\u0027re showing you documents in US - English. You can also view the documents in multiple languages.","user":{"uid":0,"permissionsHash":"bfcdd65407b0dabcd50bc42a5ec881d02c65216ef2b89c46207cee13abf8861f"}}</script>
+<script src="/sites/default/files/js/js_QTYfRnZwMFoB9tLD-OyucD2wziKs0hfyrWhL4dGOFiQ.js?scope=header&amp;delta=0&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tgeui0"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tgeui0"></script>
+
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVG6F2P"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+
+<div  class="layout-container layout-container--path---home">
+
+      
+
+
+<header  class="header relative">
+    
+
+
+
+
+
+<div  class="utility-nav utility-nav-- bg__grey-light js-utility-nav">
+  <div class="container">
+    <div  class="utility-nav__list utility-nav__list-- flex">
+      
+
+<div  class="dropdown dropdown--zip bg__grey-light js-utility-nav js-utility-drop__wrapper utility-drop__wrapper" data-analytic='{&quot;link_text&quot;: &quot;zip_code&quot;}'>
+  <button class="js-utility-drop__trigger utility-drop__trigger">
+          
+
+
+<svg  class="utility__icon utility__icon--pin"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#pin"></use>
+</svg>
+                      <span aria-hidden="true" class="js-utility-drop-title">Add location</span>
+        <span class="visually-hidden">Select location</span>
+                    
+
+
+<svg  class="utility__icon utility__icon--chevron"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#chevron"></use>
+</svg>
+      </button>
+  <div class="utility-nav__content bg__white">
+          <div id="utility-nav-loc-autocomplete"></div>
+      </div>
+</div>
+
+      
+      
+
+<div  class="dropdown dropdown--country bg__grey-light js-utility-nav js-utility-drop__wrapper utility-drop__wrapper" data-analytic='{&quot;link_text&quot;: &quot;country_selector&quot;}'>
+  <button class="js-utility-drop__trigger utility-drop__trigger">
+          
+
+
+<svg  class="utility__icon utility__icon--country"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#icon-US"></use>
+</svg>
+                      <span aria-hidden="true" class="js-utility-drop-title">US<span class="utility-drop__country-divider">|</span>EN</span>
+        <span class="visually-hidden">Select site language</span>
+                    
+
+
+<svg  class="utility__icon utility__icon--chevron"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#chevron"></use>
+</svg>
+      </button>
+  <div class="utility-nav__content bg__white">
+                          <ul class="menu" data-utility-nav-component-name="locale">
+                      <li class="menu__item menu__item--country">
+              <a
+                class="menu__link"
+                href="https://www.certainteed.com/"
+                data-analytics-key="US-EN"
+              >
+                
+
+
+<svg  class="utility__icon utility__icon--country"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#icon-US"></use>
+</svg>
+                United States
+              </a>
+            </li>
+                          <li class="menu__item menu__item--language">
+                <a
+                  class="menu__link"
+                  href="https://www.certainteed.com/"
+                  data-analytics-key="US-EN"
+                >
+                  <span class="visually-hidden">United States</span>
+                  English (EN)
+                </a>
+              </li>
+                          <li class="menu__item menu__item--language">
+                <a
+                  class="menu__link"
+                  href="https://es.certainteed.com/"
+                  data-analytics-key="US-ES"
+                >
+                  <span class="visually-hidden">United States</span>
+                  Spanish (ES)
+                </a>
+              </li>
+                                  <li class="menu__item menu__item--country">
+              <a
+                class="menu__link"
+                href="https://www.certainteed.ca/"
+                data-analytics-key="CA-EN"
+              >
+                
+
+
+<svg  class="utility__icon utility__icon--country"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#icon-CA"></use>
+</svg>
+                Canada
+              </a>
+            </li>
+                          <li class="menu__item menu__item--language">
+                <a
+                  class="menu__link"
+                  href="https://www.certainteed.ca/"
+                  data-analytics-key="CA-EN"
+                >
+                  <span class="visually-hidden">Canada</span>
+                  English (EN)
+                </a>
+              </li>
+                          <li class="menu__item menu__item--language">
+                <a
+                  class="menu__link"
+                  href="https://fr.certainteed.ca/"
+                  data-analytics-key="CA-FR"
+                >
+                  <span class="visually-hidden">Canada</span>
+                  French (FR)
+                </a>
+              </li>
+                              </ul>
+      
+            </div>
+</div>
+
+      <div class="utility-menu__wrapper">
+                  <nav role="navigation" aria-labelledby="block-utilitynavigation-menu" id="block-utilitynavigation">
+            
+  <h2 class="visually-hidden" id="block-utilitynavigation-menu">Utility Navigation</h2>
+  
+
+        
+
+
+
+    
+                          
+    
+<ul  data-region="header" class="utility__menu">
+            
+<li  class="menu__item">
+                <a href="/where-to-buy" class="btn btn--s btn--secondary menu__link" data-drupal-link-system-path="node/207311">Where To Buy</a>
+          </li>
+          
+<li  class="menu__item menu__item--find-a-pro">
+                <a href="/find-a-pro" class="btn btn--s btn--primary btn--find-a-pro menu__link menu__link--find-a-pro" data-drupal-link-system-path="node/204851">Find A Pro</a>
+          </li>
+          
+<li  class="menu__item menu__item--find-a-rep">
+                <a href="/find-a-rep" class="btn btn--s btn--primary btn--find-a-rep menu__link menu__link--find-a-rep" data-drupal-link-system-path="node/207321">Find A Rep</a>
+          </li>
+      </ul>
+  
+
+  </nav>
+
+              </div>
+
+          </div>
+  </div>
+</div>
+
+
+
+
+  <div  class="header__primary container relative">
+    
+<a
+   class="logo-link"
+      href="/"
+>
+        <img
+        src="/themes/custom/certainteed/images/logo.svg"
+        alt="Logo" class="logo__image hidden md-block"
+        width="286"
+        height="66"
+      />
+      <img
+        src="/themes/custom/certainteed/images/logo-m.svg"
+        alt="Logo"
+        class="logo-m__image md-hidden"
+        width="40"
+        height="40"
+      />
+  </a>
+    
+                                                                                
+            
+  <h2 class="visually-hidden" id="block-megamenu-menu">Mega Menu</h2>
+  
+
+        <nav class="mega-menu relative flex justify-end" id="mega-menu" data-react-settings="{&quot;megaMenu&quot;:[{&quot;title&quot;:&quot;Products&quot;,&quot;url&quot;:&quot;\/products&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;subtree&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:[]},{&quot;title&quot;:&quot;Inspiration&quot;,&quot;url&quot;:&quot;\/inspiration&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;subtree&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:[]},{&quot;title&quot;:&quot;Documents&quot;,&quot;url&quot;:&quot;\/products\/documents-downloads&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;subtree&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:[]},{&quot;title&quot;:&quot;About Us&quot;,&quot;url&quot;:&quot;\/about-us&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;subtree&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:[]},{&quot;title&quot;:&quot;For Professionals&quot;,&quot;url&quot;:&quot;\/for-professionals&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;subtree&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:[]}],&quot;utilityMenu&quot;:[{&quot;title&quot;:&quot;Where To Buy&quot;,&quot;url&quot;:&quot;\/where-to-buy&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;class&quot;:[&quot;btn btn--s btn--secondary&quot;]}},{&quot;title&quot;:&quot;Find A Pro&quot;,&quot;url&quot;:&quot;\/find-a-pro&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;class&quot;:[&quot;btn btn--s btn--primary btn--find-a-pro&quot;]}},{&quot;title&quot;:&quot;Find A Rep&quot;,&quot;url&quot;:&quot;\/find-a-rep&quot;,&quot;description&quot;:&quot;&quot;,&quot;cta&quot;:[],&quot;components&quot;:[],&quot;icon&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;class&quot;:[&quot;btn btn--s btn--primary btn--find-a-rep&quot;]}}],&quot;analytic&quot;:{&quot;navOpened&quot;:{&quot;event&quot;:&quot;nav_opened&quot;,&quot;element_location&quot;:&quot;mega_menu&quot;},&quot;navClicked&quot;:{&quot;event&quot;:&quot;nav_click&quot;,&quot;location&quot;:&quot;header&quot;}}}"></nav>
+
+  
+
+
+                                        
+                                                        <div id="global-search-mega-menu"></div>
+                        </div>
+</header>
+  
+      <div class="region--message container bg__white">
+              
+        
+        
+        
+          <div>
+    
+
+<div  id="block-sitewidealert" class="sitewide-alert-block block">
+  
+    
+      <div data-sitewide-alert></div>
+  </div>
+
+  </div>
+
+          </div>
+  
+  <div  class="main">
+    <a id="main-content" tabindex="-1"></a>
+    <main role="main"  class="main-content">
+                <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+<article  class="node">
+
+  
+    
+
+  
+  <div>
+    
+              
+<div  class="section container container--no-padding bg-solid-bg-blue-pattern section-pt- section-pb- section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+          
+
+
+
+
+
+
+<div  class="hero-banner hero-banner--medium-dark hero-banner--dark hero-banner-- hero-banner--video relative container container--no-padding hero-banner--overlay"
+  data-component-name="[B1] Hero">
+      <div  class="hero-banner__main-video hero-banner__main-video--">
+    <div  class="hero-banner__media hero-banner__media--video hero-banner__media--img relative">
+      
+
+<div  class="video-html5 relative">
+                                                  <video src="/sites/default/files/2026-04/White_Loop_Single_V2.mp4#t=0.001" type="video/mp4"  autoplay="autoplay" loop="loop" muted="muted" width="640" height="480" playsinline="" autoplay="autoplay" loop="loop" muted="muted" width="640" height="480" playsinline="" preload="metadata" autoplay="autoplay" loop="loop" muted="true" width="640" height="480" playsinline="" preload="metadata"></video>
+
+
+  
+
+
+<button
+   class="btn-icon btn-icon--inline-play"
+  >
+            <span class="visually-hidden">
+        Play video
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#inline-play"></use>
+</svg>
+      </button>
+  
+
+
+<button
+   class="btn-icon btn-icon--inline-pause"
+  >
+            <span class="visually-hidden">
+        Pause video
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#inline-pause"></use>
+</svg>
+      </button>
+</div>
+    <div  class="hero-banner__media hero-banner__media--image hero-banner__media--img relative">
+        
+
+  
+<picture
+   loading="eager" width="1600" height="687" class="image"
+>
+            <source srcset="/sites/default/files/styles/hero_medium_desktop/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.webp?itok=kvEMLz5Z 1x" media="all and (min-width: 80em)" type="image/webp" width="1600" height="687"/>
+          <source srcset="/sites/default/files/styles/hero_medium_tablet/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.webp?itok=nlVM-YB9 1x" media="all and (min-width: 60em)" type="image/webp" width="1280" height="653"/>
+          <source srcset="/sites/default/files/styles/hero_medium_mobile/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.webp?itok=15o-jMYt 1x" media="all and (max-width: 59.999em)" type="image/webp" width="480" height="320"/>
+          <source srcset="/sites/default/files/styles/hero_medium_desktop/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.png?itok=kvEMLz5Z 1x" media="all and (min-width: 80em)" type="image/png" width="1600" height="687"/>
+          <source srcset="/sites/default/files/styles/hero_medium_tablet/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.png?itok=nlVM-YB9 1x" media="all and (min-width: 60em)" type="image/png" width="1280" height="653"/>
+          <source srcset="/sites/default/files/styles/hero_medium_mobile/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.png?itok=15o-jMYt 1x" media="all and (max-width: 59.999em)" type="image/png" width="480" height="320"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img loading="eager" width="1600" height="687" class="image" src="/sites/default/files/styles/hero_medium_desktop/public/2026-04/White_Loop_Single_V2.mp4%20thumbail.png?itok=kvEMLz5Z" alt="Severe weather conditions including snow, hail, and strong winds" />
+
+</picture>
+
+
+</div>
+
+</div>
+
+  </div>
+    
+    <div class="container">
+    <div class="hero-banner__content">
+            
+
+<h1
+   class="h component-headline h1"
+>Built for Protection. Built for Confidence. Built for Resilience.</h1>
+      
+            <div class="hero-banner__description">
+        <p>Whole-home systems engineered to work together for exceptional compatibility, flexibility, and durability.</p>
+      </div>
+      
+          </div>
+  </div>
+  </div>
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-blue-pattern section-pt- section-pb- section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-blue-pattern section-pt-default section-pb- section-cc-">
+            
+  <div class="layout layout--twocol">
+          <div  class="layout__region layout__region--top">
+          
+
+
+<div  class="quick-links quick-links--with-cards flex container bg-solid-bg-blue-pattern"
+  data-component-name="[B2] Quick Links">
+  <div  class="quick-links__head">
+    <h3  class="quick-links__title component-headline">
+      Built for every project—from dream homes to cutting-edge commercial spaces.
+    </h3>
+  </div>
+  <div
+  class="js-swiper-default swiper w-full quick-links__links"
+  data-swiper-id="357731"
+  >
+  <div class="swiper-wrapper quick-links__links-wrap flex">
+                                <div  class="quick-links__card">
+            
+
+  <div class="card-image">
+    
+            <div><a href="/residential-solutions">Residential Solutions</a></div>
+      
+            <div>
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="457" height="345" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/mulzprlbbc/web/urban-reserve-cobr-modern-house.tif?crop=yes&amp;k=c&amp;w=457&amp;h=345&amp;itok=yPswtaB6 1x" media="all and (min-width: 80em)" width="457" height="345"/>
+          <source srcset="https://certainteed.widen.net/content/mulzprlbbc/web/urban-reserve-cobr-modern-house.tif?crop=yes&amp;k=c&amp;w=272&amp;h=267&amp;itok=QLgImlJt 1x" media="all and (max-width: 59.999em)" width="272" height="267"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="457" height="345" class="image" src="https://certainteed.widen.net/content/mulzprlbbc/web/urban-reserve-cobr-modern-house.tif?crop=yes&amp;k=c&amp;w=457&amp;h=345&amp;itok=yPswtaB6" alt="House features Urban Reserve panels in commercial brown" loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+</div>
+      
+  </div>
+
+          </div>
+                                <div  class="quick-links__card">
+            
+
+  <div class="card-image">
+    
+            <div><a href="/commercial-solutions">Commercial Solutions</a></div>
+      
+            <div>
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="457" height="345" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/n6rhylu9xg/web/williams-college-of-business-administration%20(4).tif?crop=yes&amp;k=c&amp;w=457&amp;h=345&amp;itok=7hMT_eHA 1x" media="all and (min-width: 80em)" width="457" height="345"/>
+          <source srcset="https://certainteed.widen.net/content/n6rhylu9xg/web/williams-college-of-business-administration%20(4).tif?crop=yes&amp;k=c&amp;w=272&amp;h=267&amp;itok=HnSqwNoc 1x" media="all and (max-width: 59.999em)" width="272" height="267"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="457" height="345" class="image" src="https://certainteed.widen.net/content/n6rhylu9xg/web/williams-college-of-business-administration%20(4).tif?crop=yes&amp;k=c&amp;w=457&amp;h=345&amp;itok=7hMT_eHA" alt="Williams College of Business Administration, Youngstown State University" loading="lazy" />
+
+</picture>
+
+    
+              <div class="image--description image--credit">
+         Kevin Reeves
+      </div>
+      </div>
+
+    
+</div>
+</div>
+      
+  </div>
+
+          </div>
+                      </div>
+
+      <div class="swiper-pagination flex flex-wrap justify-center items-center "></div>
+  
+      <div class="swiper-button swiper-button-next">
+      
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#arrow"></use>
+</svg>
+    </div>
+    <div class="swiper-button swiper-button-prev">
+      
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#arrow"></use>
+</svg>
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+    <div class="layout__collection container flex flex-wrap">
+              <div  class="layout__region layout__region--first">
+          
+        </div>
+      
+              <div  class="layout__region layout__region--second">
+          
+        </div>
+          </div>
+
+      </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-white section-pt-default section-pb-default section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+            
+
+<div  class="hotspot-gallery" data-component-name="[A8] Hotspot Gallery">
+
+  <div class="container">
+    
+
+<h2
+   class="h component-headline h2"
+>This is the house that science built.</h2>
+
+        <div  class="hotspot-gallery__description">
+      <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+    </div>
+      </div>
+
+  <div  class="hotspot-gallery__area relative">
+    
+    <div  class="hotspot-gallery__media custom-scroll-wrapper">
+      <div  class="hotspot-gallery__img custom-scroll-content js-scroll-content-horizontal">
+                <div class="scroll-item">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+
+          <div class="scroll-spots">
+                                                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="67471"
+      data-hotspot-top="15"
+      data-hotspot-left="71"
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="67471"
+  data-hotspot-top="15"
+  data-hotspot-left="71"
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+          <div><img src="https://certainteed.widen.net/content/98f485d5-abf5-4a37-acba-901a9fff12a2/web/landmark-mdgegr-dml.tif?crop=yes&amp;k=c&amp;w=320&amp;h=213&amp;itok=znv1ulfQ" width="320" height="213" alt="Max Def Georgetown Gray Color Swatch" loading="lazy" />
+
+</div>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>Residential Roofing</h6>
+
+          <div  class="hotspot-item__description">
+        <p>With quality standards that lead the industry, our roofing systems can cool homes, stop algae, and withstand wind, rain, and hail—without compromising beauty. Choose from classic and modern styles in vivid, lasting colors.&nbsp;</p>
+      </div>
+    
+          
+<a
+   class="link link--black link--arrow"
+      href="/products/residential-roofing-products"
+>
+      Learn More
+  </a>
+      </div>
+
+</div>
+
+                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="2028943343"
+      data-hotspot-top=""
+      data-hotspot-left=""
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="2028943343"
+  data-hotspot-top=""
+  data-hotspot-left=""
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>This is the house that science built.</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+      </div>
+    
+      </div>
+
+</div>
+                                                              
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="99711"
+      data-hotspot-top="45"
+      data-hotspot-left="71"
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="99711"
+  data-hotspot-top="45"
+  data-hotspot-left="71"
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+          <div><img src="https://certainteed.widen.net/content/6242286b-2a9f-42fc-9ef0-1d34fa27acf0/web/30144-CI-D7-SEP-3G-chgr.tif?crop=yes&amp;k=c&amp;w=320&amp;h=213&amp;itok=jDNaC1l7" width="320" height="213" alt="Siding Color Swatch" loading="lazy" />
+
+</div>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>Siding &amp; Trim</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Timeless, weather-resistant siding that enhances your building envelope for better moisture and heat control. Enjoy the rich character of woodgrain and stone, or the clean lines of modern metal—minus the upkeep.&nbsp;</p>
+      </div>
+    
+          
+<a
+   class="link link--black link--arrow"
+      href="/products/siding-products"
+>
+      Learn More
+  </a>
+      </div>
+
+</div>
+
+                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="163460051"
+      data-hotspot-top=""
+      data-hotspot-left=""
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="163460051"
+  data-hotspot-top=""
+  data-hotspot-left=""
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>This is the house that science built.</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+      </div>
+    
+      </div>
+
+</div>
+                                                              
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="99716"
+      data-hotspot-top="75"
+      data-hotspot-left="42"
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="99716"
+  data-hotspot-top="75"
+  data-hotspot-left="42"
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+          <div><img src="https://certainteed.widen.net/content/a5ba8c04-09aa-4820-a6bf-839bf33438ce/web/finishing-corner-products-west-EN-CA.jpg?crop=yes&amp;k=c&amp;w=320&amp;h=213&amp;itok=a85SZvr0" width="320" height="213" alt="Canadian finishing products" loading="lazy" />
+
+</div>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>Drywall &amp; Finishing</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Strong walls need reliable precision and performance. Our drywall and finishing solutions are designed to streamline installation and defend any space against moisture, fire, and heavy traffic.</p>
+      </div>
+    
+          
+<a
+   class="link link--black link--arrow"
+      href="/products/drywall-products-systems-products"
+>
+      Learn More
+  </a>
+      </div>
+
+</div>
+
+                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="1576946397"
+      data-hotspot-top=""
+      data-hotspot-left=""
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="1576946397"
+  data-hotspot-top=""
+  data-hotspot-left=""
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>This is the house that science built.</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+      </div>
+    
+      </div>
+
+</div>
+                                                              
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="99721"
+      data-hotspot-top="27"
+      data-hotspot-left="53"
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="99721"
+  data-hotspot-top="27"
+  data-hotspot-left="53"
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+          <div><img src="https://certainteed.widen.net/content/553522b9-6803-4fe8-ae6d-a4971771413d/web/glasroc-tile-backer-board-stack?crop=yes&amp;k=c&amp;w=320&amp;h=213&amp;itok=u8eLbrSI" width="320" height="213" alt="GlasRoc tilebacker" loading="lazy" />
+
+</div>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>GlasRoc Tile Backer</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Used in wet areas like bathrooms, kitchens, and utility rooms, GlasRoc Tile Backer combines superior moisture-resistance with lightweight handling—thanks to its unique fiberglass mat embedded in a gypsum core</p>
+      </div>
+    
+          
+<a
+   class="link link--black link--arrow"
+      href="/products/drywall-products/glasroc-tile-backer"
+>
+      Learn More
+  </a>
+      </div>
+
+</div>
+
+                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="1914038703"
+      data-hotspot-top=""
+      data-hotspot-left=""
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="1914038703"
+  data-hotspot-top=""
+  data-hotspot-left=""
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>This is the house that science built.</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+      </div>
+    
+      </div>
+
+</div>
+                                                              
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="99726"
+      data-hotspot-top="48"
+      data-hotspot-left="18"
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="99726"
+  data-hotspot-top="48"
+  data-hotspot-left="18"
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+          <div><img src="https://certainteed.widen.net/content/097f41b0-205a-43df-82bb-095df1a52c5b/web/insulpure-product-family.jpg?crop=yes&amp;k=c&amp;w=320&amp;h=213&amp;itok=rC6kYw4K" width="320" height="213" alt="insulpure-product-family.jpg" loading="lazy" />
+
+</div>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>Building Insulation</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every space deserves complete comfort. Our insulation solutions work together to deliver the right balance of warmth, quiet, and air tightness so every building feels—and performs—better.</p>
+      </div>
+    
+          
+<a
+   class="link link--black link--arrow"
+      href="/products/building-insulation-products"
+>
+      Learn More
+  </a>
+      </div>
+
+</div>
+
+                
+
+
+
+<button
+   class="btn-icon btn-icon--hotspot js-hotspot-button hotspot-item__button"
+      data-hotspot-id="663450873"
+      data-hotspot-top=""
+      data-hotspot-left=""
+  >
+            <span class="visually-hidden">
+        Hotspot item
+      </span>
+        
+
+
+<svg  class="icon"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#hotspot"></use>
+</svg>
+      </button>
+
+<div
+   class="hotspot-item js-hotspot-item"
+  data-hotspot-id="663450873"
+  data-hotspot-top=""
+  data-hotspot-left=""
+>
+  <div  class="hotspot-item__media relative">
+          
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            
+
+  
+<picture
+   width="1472" height="828" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.webp?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG 1x" media="all and (min-width: 80em)" width="1472" height="828"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1199&amp;h=674&amp;itok=UY34lMk9 1x" media="all and (min-width: 60em)" width="1199" height="674"/>
+          <source srcset="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=880&amp;h=495&amp;itok=t2TD452B 1x" media="all and (max-width: 59.999em)" width="880" height="495"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="1472" height="828" class="image" src="https://certainteed.widen.net/content/6vs8qknlby/web/Homepage-hotspot-1440x810.jpg?crop=yes&amp;k=c&amp;w=1472&amp;h=828&amp;itok=6Hd_4eoG" alt="A single family home with cutaway views into the house showing insulation in wood studs, drywall, GlasRoc tile backer, siding and roofing." loading="lazy" />
+
+</picture>
+
+    
+          </div>
+
+    
+</div>
+
+    
+    
+
+
+<button
+   class="btn-icon btn-icon--close-small js-hotspot-close"
+  >
+            <span class="visually-hidden">
+        Close Hotspot item
+      </span>
+        
+
+
+<svg  class="icon close"
+
+  
+  
+  
+    
+  >
+      <use xlink:href="/themes/custom/certainteed/dist/icons.svg#close-small"></use>
+</svg>
+      </button>
+  </div>
+
+  <div  class="hotspot-item__content">
+    
+
+<h6
+   class="h h6"
+>This is the house that science built.</h6>
+
+          <div  class="hotspot-item__description">
+        <p>Every layer matters. We make sure every layer performs. Our comprehensive science-driven solutions work together to take on the weather—and the wear and tear of life.</p>
+      </div>
+    
+      </div>
+
+</div>
+                                    </div>
+
+        </div>
+        
+        
+      </div>
+      <div class="custom-scrollbar-track-horizontal">
+        <div class="custom-scrollbar-thumb-horizontal"></div>
+      </div>
+    </div>
+
+      </div>
+
+  </div>
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-paper-light section-pt-default section-pb-default section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+  
+
+
+
+
+
+<div  class="featured-split" data-component-name="[B5] Featured Split">
+  
+<div  class="featured-split__card featured-split__card--media_on_left featured-split__card--1 featured-split__card--50_50 featured-split__card--solid-bg-white flex container relative">
+
+  <div  class="card__content bg-solid-bg-white flex flex-col justify-center">
+    
+                        
+
+<h2
+   class="h component-headline h2"
+>Built for head-turning homes.</h2>
+              
+          <div  class="card__description">
+        
+
+            <div class="text-long"><p>ColorView AI Home Visualizer lets you see CertainTeed roofing and siding on your home. Compare styles and colors in just a few minutes.</p></div>
+      
+      </div>
+    
+    
+    
+    
+          
+<div  class="cta-multi" aria-hidden="false">
+  
+    
+    
+
+<a
+   class="btn btn--primary"
+  href="https://colorview.certainteed.com/"
+  >
+      Start Designing
+  </a>
+  </div>
+      </div>
+
+      <div  class="card__media">
+                                                                                          
+
+
+<div  class="media--image">
+  
+
+  <div class="field--image">
+            <img title="ColorView Animation" alt="Before-and-after GIF of a two-story house showing updates to roofing and siding." loading="lazy" src="/sites/default/files/2025-11/colorview_animation.gif" width="648" height="486" />
+
+
+    
+          </div>
+
+    
+</div>
+
+            
+                                </div>
+  
+  </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-blue section-pt-none section-pb-none section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+          
+<div  class="mondrian-grid bg__blue bg-solid-bg-blue-pattern" data-component-name="[G4] Mondrian Grid">
+  <div  class="mondrian-grid-row mondrian-grid-row__text-wrapper">
+  
+<div  class="mondrian-grid-row__card flex relative">
+
+  <div  class="card__content">
+    
+                  
+
+<h2
+   class="heading component-headline h2"
+>Built for success. Backed by support.</h2>
+          
+          <div  class="card__description">
+        <p>CertainTeed solutions are built for your vision. Residential or commercial. New builds, renovations, or repairs. Interiors and all six sides. Everything you need is right here.</p>
+      </div>
+    
+    
+    
+    
+      </div>
+
+  
+  </div>
+  <div  class="mondrian-grid-row mondrian-grid-row__text">
+      <div  class="mondrian-grid-row__1">
+        
+
+  
+<picture
+   width="4992" height="6666" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/yamndtpvvi/web/landmarkpro-mdcobl-B13-dml.tif?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=km4R3xRY 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/yamndtpvvi/web/landmarkpro-mdcobl-B13-dml.tif?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=-QdfGb6E 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/yamndtpvvi/web/landmarkpro-mdcobl-B13-dml.tif?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=vnxJXNfp 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/yamndtpvvi/web/landmarkpro-mdcobl-B13-dml.tif?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=az2Iga7k 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="4992" height="6666" class="image" src="https://certainteed.widen.net/content/yamndtpvvi/web/landmarkpro-mdcobl-B13-dml.tif" alt="Landmark PRO Designer Shingles in Max Def Coastal Blue - close up of rooftop and ridge vent,  glamour house featuring blue siding and white scallop shingles" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/residential-roofing-products"
+>
+    <span class="link__content">Residential Roofing</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__2">
+        
+
+  
+<picture
+   width="5298" height="3744" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/pbfielusod/web/vinylcarp-2-5-windowdoorcasing-cowh-CID7-rough-sabr-install.tif?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=M8CjSArf 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/pbfielusod/web/vinylcarp-2-5-windowdoorcasing-cowh-CID7-rough-sabr-install.tif?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=OfLgwSN2 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/pbfielusod/web/vinylcarp-2-5-windowdoorcasing-cowh-CID7-rough-sabr-install.tif?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=dWgLU8kh 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/pbfielusod/web/vinylcarp-2-5-windowdoorcasing-cowh-CID7-rough-sabr-install.tif?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=atCp1NCe 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+  
+  
+  
+  <img width="5298" height="3744" class="image" src="https://certainteed.widen.net/content/pbfielusod/web/vinylcarp-2-5-windowdoorcasing-cowh-CID7-rough-sabr-install.tif" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/siding-products"
+>
+    <span class="link__content">Siding &amp; Trim</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__3">
+        
+
+  
+<picture
+   width="8192" height="5464" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/mli01dpl8u/web/20230402_CertainTeed_WORKSTYLE_Commercial_Drywall_01572.tif?crop=yes&amp;k=c&amp;w=869&amp;h=289&amp;itok=lEMrPURJ 1x" media="all and (min-width: 80em)" width="869" height="289"/>
+          <source srcset="https://certainteed.widen.net/content/mli01dpl8u/web/20230402_CertainTeed_WORKSTYLE_Commercial_Drywall_01572.tif?crop=yes&amp;k=c&amp;w=793&amp;h=264&amp;itok=J6cfm-Sn 1x" media="all and (min-width: 60em)" width="793" height="264"/>
+          <source srcset="https://certainteed.widen.net/content/mli01dpl8u/web/20230402_CertainTeed_WORKSTYLE_Commercial_Drywall_01572.tif?crop=yes&amp;k=c&amp;w=432&amp;h=216&amp;itok=_zQNEd3g 1x" media="all and (max-width: 30em)" width="432" height="216"/>
+          <source srcset="https://certainteed.widen.net/content/mli01dpl8u/web/20230402_CertainTeed_WORKSTYLE_Commercial_Drywall_01572.tif?crop=yes&amp;k=c&amp;w=911&amp;h=455&amp;itok=ttweBk3E 1x" media="all and (max-width: 59.999em)" width="911" height="455"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="8192" height="5464" class="image" src="https://certainteed.widen.net/content/mli01dpl8u/web/20230402_CertainTeed_WORKSTYLE_Commercial_Drywall_01572.tif" alt="Commercial Gypsum Workstyle Photography  Interior Setting" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/drywall-products-systems-products"
+>
+    <span class="link__content">Drywall</span>
+</a>
+          </div>
+  </div></div>
+
+  <div  class="mondrian-grid-row mondrian-grid-row__left">
+      <div  class="mondrian-grid-row__1">
+        
+
+  
+<picture
+   width="3699" height="5221" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.webp?crop=yes&amp;k=c&amp;w=426&amp;h=595&amp;itok=7vnOzb4w 1x" media="all and (min-width: 80em)" width="426" height="595" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.webp?crop=yes&amp;k=c&amp;w=374&amp;h=524&amp;itok=qb07-pkS 1x" media="all and (min-width: 60em)" width="374" height="524" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=gC7W0iOA 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.webp?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=lC8-gcaK 1x" media="all and (max-width: 59.999em)" width="451" height="681" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.jpg?crop=yes&amp;k=c&amp;w=426&amp;h=595&amp;itok=7vnOzb4w 1x" media="all and (min-width: 80em)" width="426" height="595"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.jpg?crop=yes&amp;k=c&amp;w=374&amp;h=524&amp;itok=qb07-pkS 1x" media="all and (min-width: 60em)" width="374" height="524"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=gC7W0iOA 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.jpg?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=lC8-gcaK 1x" media="all and (max-width: 59.999em)" width="451" height="681"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="3699" height="5221" class="image" src="https://certainteed.widen.net/content/hjcf9ba9u1/web/ceilings-wood-panelized-linear-gallery.jpg" alt="A staircase with two people walking and Wood Panelized Linear ceiling." loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/ceiling-wall-systems-products"
+>
+    <span class="link__content">Specialty Ceilings</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__2">
+        
+
+  
+<picture
+   width="5512" height="3675" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/1razidkekb/web/ceilings-symphony-m-70-rx-80-rx-gallery.tif?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=d0ZEBtR_ 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/1razidkekb/web/ceilings-symphony-m-70-rx-80-rx-gallery.tif?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=8liq3LDe 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/1razidkekb/web/ceilings-symphony-m-70-rx-80-rx-gallery.tif?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=2rKTfI_k 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/1razidkekb/web/ceilings-symphony-m-70-rx-80-rx-gallery.tif?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=IQiNZv28 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="5512" height="3675" class="image" src="https://certainteed.widen.net/content/1razidkekb/web/ceilings-symphony-m-70-rx-80-rx-gallery.tif" alt="A hospital waiting room with a fireplace and tv." loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/ceiling-wall-systems-products"
+>
+    <span class="link__content">Ceilings &amp; Walls</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__3">
+        
+
+  
+<picture
+   width="5477" height="3651" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).webp?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=KT0lAZ6h 1x" media="all and (min-width: 80em)" width="480" height="320" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).webp?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=ulH1OsMS 1x" media="all and (min-width: 60em)" width="374" height="249" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=j8bEBHUd 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).webp?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=gxMgDbgu 1x" media="all and (max-width: 59.999em)" width="451" height="451" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).jpg?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=KT0lAZ6h 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).jpg?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=ulH1OsMS 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=j8bEBHUd 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).jpg?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=gxMgDbgu 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="5477" height="3651" class="image" src="https://certainteed.widen.net/content/zvo9a38nht/web/black-diamond-base-sheet-ctr%20(90).jpg" alt="Black Diamond Base Sheet roof installation project" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/commercial-roofing-products"
+>
+    <span class="link__content">Commercial Roofing</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__4">
+        
+
+  
+<picture
+   width="5240" height="3928" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.webp?crop=yes&amp;k=c&amp;w=869&amp;h=289&amp;itok=fgYdnRc9 1x" media="all and (min-width: 80em)" width="869" height="289" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.webp?crop=yes&amp;k=c&amp;w=793&amp;h=264&amp;itok=DIVbMydK 1x" media="all and (min-width: 60em)" width="793" height="264" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=daGkjxYQ 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.webp?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=VixQm8wK 1x" media="all and (max-width: 59.999em)" width="451" height="681" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.jpg?crop=yes&amp;k=c&amp;w=869&amp;h=289&amp;itok=fgYdnRc9 1x" media="all and (min-width: 80em)" width="869" height="289"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.jpg?crop=yes&amp;k=c&amp;w=793&amp;h=264&amp;itok=DIVbMydK 1x" media="all and (min-width: 60em)" width="793" height="264"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=daGkjxYQ 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.jpg?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=VixQm8wK 1x" media="all and (max-width: 59.999em)" width="451" height="681"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="5240" height="3928" class="image" src="https://certainteed.widen.net/content/kqp7lrcgus/web/sunstyle-install-blue-house-Wash-DC.jpg" alt="SunStyle on Blue House" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/solar-products"
+>
+    <span class="link__content">Solar</span>
+</a>
+          </div>
+  </div>
+  <div  class="mondrian-grid-row mondrian-grid-row__right">
+      <div  class="mondrian-grid-row__1">
+        
+
+  
+<picture
+   width="4000" height="2666" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.webp?crop=yes&amp;k=c&amp;w=426&amp;h=595&amp;itok=ffygp8Mo 1x" media="all and (min-width: 80em)" width="426" height="595" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.webp?crop=yes&amp;k=c&amp;w=374&amp;h=524&amp;itok=qgMvJTLf 1x" media="all and (min-width: 60em)" width="374" height="524" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=TjE8PIgs 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.webp?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=sy1Styza 1x" media="all and (max-width: 59.999em)" width="451" height="681" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.jpg?crop=yes&amp;k=c&amp;w=426&amp;h=595&amp;itok=ffygp8Mo 1x" media="all and (min-width: 80em)" width="426" height="595"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.jpg?crop=yes&amp;k=c&amp;w=374&amp;h=524&amp;itok=qgMvJTLf 1x" media="all and (min-width: 60em)" width="374" height="524"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=TjE8PIgs 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.jpg?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=sy1Styza 1x" media="all and (max-width: 59.999em)" width="451" height="681"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="4000" height="2666" class="image" src="https://certainteed.widen.net/content/vmnx8y6avt/web/sheathing-exterior-render-2-nov2025.jpg" alt="Building under construction with GlasRoc Sheathing" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/sheathing"
+>
+    <span class="link__content">Sheathing</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__2">
+        
+
+  
+<picture
+   width="7360" height="4912" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/lwgdo7uwya/web/insulpure-application-wood-studs%20(9).tif?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=bjUA2IRR 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/lwgdo7uwya/web/insulpure-application-wood-studs%20(9).tif?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=toZEwd-F 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/lwgdo7uwya/web/insulpure-application-wood-studs%20(9).tif?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=VMv0pIkp 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/lwgdo7uwya/web/insulpure-application-wood-studs%20(9).tif?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=DA1CnqPm 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+  
+  
+  
+  <img width="7360" height="4912" class="image" src="https://certainteed.widen.net/content/lwgdo7uwya/web/insulpure-application-wood-studs%20(9).tif" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/building-insulation-products"
+>
+    <span class="link__content">Building Insulation</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__3">
+        
+
+  
+<picture
+   width="4368" height="2912" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.webp?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=49aKyD9k 1x" media="all and (min-width: 80em)" width="480" height="320" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.webp?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=lMrM2hNY 1x" media="all and (min-width: 60em)" width="374" height="249" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=qn18DJF2 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.webp?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=48JNGcim 1x" media="all and (max-width: 59.999em)" width="451" height="451" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.jpg?crop=yes&amp;k=c&amp;w=480&amp;h=320&amp;itok=49aKyD9k 1x" media="all and (min-width: 80em)" width="480" height="320"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.jpg?crop=yes&amp;k=c&amp;w=374&amp;h=249&amp;itok=lMrM2hNY 1x" media="all and (min-width: 60em)" width="374" height="249"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=qn18DJF2 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.jpg?crop=yes&amp;k=c&amp;w=451&amp;h=451&amp;itok=48JNGcim 1x" media="all and (max-width: 59.999em)" width="451" height="451"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="4368" height="2912" class="image" src="https://certainteed.widen.net/content/7anxmu7fsl/web/softtouch-ductwrap-install.jpg" alt="SoftTouch duct wrap installation" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/products/technical-insulation-products"
+>
+    <span class="link__content">Technical Insulation</span>
+</a>
+          </div>
+      <div  class="mondrian-grid-row__4">
+        
+
+  
+<picture
+   width="2500" height="1668" class="image"
+>
+            <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.webp?crop=yes&amp;k=c&amp;w=869&amp;h=289&amp;itok=TCcR-F_b 1x" media="all and (min-width: 80em)" width="869" height="289" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.webp?crop=yes&amp;k=c&amp;w=793&amp;h=264&amp;itok=CbWqpQls 1x" media="all and (min-width: 60em)" width="793" height="264" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.webp?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=fenQIWkw 1x" media="all and (max-width: 30em)" width="212" height="322" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.webp?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=Fl5I8U36 1x" media="all and (max-width: 59.999em)" width="451" height="681" type="image/webp"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.jpg?crop=yes&amp;k=c&amp;w=869&amp;h=289&amp;itok=TCcR-F_b 1x" media="all and (min-width: 80em)" width="869" height="289"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.jpg?crop=yes&amp;k=c&amp;w=793&amp;h=264&amp;itok=CbWqpQls 1x" media="all and (min-width: 60em)" width="793" height="264"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.jpg?crop=yes&amp;k=c&amp;w=212&amp;h=322&amp;itok=fenQIWkw 1x" media="all and (max-width: 30em)" width="212" height="322"/>
+          <source srcset="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.jpg?crop=yes&amp;k=c&amp;w=451&amp;h=681&amp;itok=Fl5I8U36 1x" media="all and (max-width: 59.999em)" width="451" height="681"/>
+          
+  
+  
+  
+        
+        
+  
+  
+  <img width="2500" height="1668" class="image" src="https://certainteed.widen.net/content/xeclibottq/web/OPA_CT_Mystic_Black.jpg" alt="One precision assemblies pilot home in black, located in Mystic Connecticut" loading="lazy" />
+
+</picture>
+
+
+              
+<a
+   class="link link--arrow-oblique link--cover"
+      href="/one-precision-assemblies_old"
+>
+    <span class="link__content">Offsite Construction</span>
+</a>
+          </div>
+  </div>
+  <div  class="mondrian-grid-row mondrian-grid-row__left">
+  </div>
+  <div  class="mondrian-grid-row mondrian-grid-row__three">
+  </div></div>
+
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-white section-pt-default section-pb-default section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+        
+  
+
+<div  class="stats flex flex-col container" data-component-name="[B10] Stats">
+      <div  class="stats__title">
+      
+
+<h2
+   class="h component-headline h2"
+>Why CertainTeed</h2>
+    </div>
+  
+  
+  <div  class="stats__cta-wrap">
+                    
+  
+
+<div  class="cta-icon stats__cta relative">
+
+      
+  
+  <div  class="cta-icon__content flex items-center">
+
+    
+    <div  class="cta-icon__text">
+                        
+
+<h2
+   class="cta-icon__title h2"
+><span class='stats__cta-number' data-number='120'>0</span><span class='stats__cta-symbol'>+</span></h2>
+                            <div  class="cta-icon__description">
+              
+
+<h5
+   class="cta-icon__title h5"
+>years in the building materials industry</h5>
+          </div>
+      
+          </div>
+
+    
+  </div>
+
+      
+  
+</div>
+
+                          
+  
+
+<div  class="cta-icon stats__cta relative">
+
+      
+  
+  <div  class="cta-icon__content flex items-center">
+
+    
+    <div  class="cta-icon__text">
+                        
+
+<h2
+   class="cta-icon__title h2"
+><span class='stats__cta-number' data-number='1000'>0</span><span class='stats__cta-symbol'>+</span></h2>
+                            <div  class="cta-icon__description">
+              
+
+<h5
+   class="cta-icon__title h5"
+>products in our portfolio</h5>
+          </div>
+      
+          </div>
+
+    
+  </div>
+
+      
+  
+</div>
+
+                          
+  
+
+<div  class="cta-icon stats__cta relative">
+
+      
+  
+  <div  class="cta-icon__content flex items-center">
+
+    
+    <div  class="cta-icon__text">
+                        
+
+<h2
+   class="cta-icon__title h2"
+><span class='stats__cta-number' data-number='400'>0</span><span class='stats__cta-symbol'>+</span></h2>
+                            <div  class="cta-icon__description">
+              
+
+<h5
+   class="cta-icon__title h5"
+>MW of renewable power contracted</h5>
+          </div>
+      
+          </div>
+
+    
+  </div>
+
+      
+  
+</div>
+
+                          
+  
+
+<div  class="cta-icon stats__cta relative">
+
+      
+  
+  <div  class="cta-icon__content flex items-center">
+
+    
+    <div  class="cta-icon__text">
+                        
+
+<h2
+   class="cta-icon__title h2"
+><span class='stats__cta-number' data-number='60'>0</span><span class='stats__cta-symbol'>+</span></h2>
+                            <div  class="cta-icon__description">
+              
+
+<h5
+   class="cta-icon__title h5"
+>manufacturing locations in the US</h5>
+          </div>
+      
+          </div>
+
+    
+  </div>
+
+      
+  
+</div>
+
+            </div>
+
+      <div  class="stats__link-wrap">
+      
+
+<a
+   class="btn btn--primary"
+  href="/about-us"
+  >
+      About CertainTeed
+  </a>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+
+            
+<div  class="section container container--no-padding bg-solid-bg-blue section-pt-default section-pb-default section-cc-">
+              <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+        
+
+<div  class="cta-banner__wrap" data-component-name="[B12] CTA Banner">
+  <div  class="cta-banner cta-banner--without-media">
+    
+    
+<div  class="cta-banner__card flex relative">
+
+  <div  class="card__content">
+    
+                  
+
+<h3
+   class="cta-banner__title component-headline h3"
+>Start your project. Find credentialed contractors near you.</h3>
+          
+          <div  class="card__description">
+        With specialized knowledge and continuous training, CertainTeed Credentialed Contractors are built to get the job done right. Find a contractor you can have confidence in near you.
+      </div>
+    
+    
+              
+
+<a
+   class="btn btn--white"
+  href="/find-a-pro"
+  >
+      Find A Pro
+  </a>
+          
+    
+    
+      </div>
+
+  
+  </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+
+      
+  </div>
+        
+
+
+<div  class="share-this__hide">
+  <div  class="share-this__buttons-list js-share-this-buttons">
+          <span st_url="https://www.certainteed.com/home" st_title="Home Page" class="st_twitter_custom" displayText="twitter"></span>
+
+          <span st_url="https://www.certainteed.com/home" st_title="Home Page" class="st_facebook_custom" displayText="facebook"></span>
+
+          <span st_url="https://www.certainteed.com/home" st_title="Home Page" class="st_linkedin_custom" displayText="linkedin"></span>
+
+          <span st_url="https://www.certainteed.com/home" st_title="Home Page" class="st_pinterest_custom" displayText="pinterest"></span>
+
+          <span st_url="https://www.certainteed.com/home" st_title="Home Page" class="st_print_custom" displayText="print"></span>
+
+        <span class="st_copy_url js-share-copy" title="Copy to clipboard"></span>
+  </div>
+</div>
+
+
+  </article>
+
+
+  </div>
+
+          </main>
+  </div>
+
+            
+<footer  class="footer">
+  <div  id="ct-footer-menu-placeholder"></div>
+
+<div  id="ct-documents-drawer"></div>
+
+</footer>
+
+        <div  class="legal-footer ct-footer">
+  <div class="container">
+    <div  id="block-certainteed-legalfooter" class="block">
+  
+    
+      
+      <div>
+              <div>
+
+  <div class="block-section">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+        
+
+
+<div  class="text-wysiwyg" data-component-name="[B55] Text (WYSIWYG)">
+
+  
+      <div  class="text-wysiwyg__body">
+      
+
+            <div class="text-long"><ul class="ct-copyright flex flex-col md-flex-row"><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/legal-terms-use">Terms of Use</a></li><li><a href="/california-privacy-policy/">California Privacy Rights Statement</a></li><li><a href="/ontario-aoda-compliance-plan">Ontario AODA Compliance Plan</a></li><li>© <span class="js-copyright-year">2025</span> CertainTeed, LLC. All rights reserved.</li></ul></div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+          </div>
+  
+  </div>
+
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+    <script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"contentType":"landing_page","id":"122791","page_url_clean":"www.certainteed.com\/home","page_title":"Home Page","page_url":"\/home","product_name":"undefined","date_launched":"08042023","date_last_updated":"04172026","business_unit":"undefined","digital_tool_name":"undefined","page_type":"undefined","product_category":"undefined","website_country":"undefined"});</script>
+
+    <div id="react-app"></div>
+    <script src="/sites/default/files/js/js_An1cMN-o_ffkjqt20naJ5viz1GbuH2CNRaWXJC9c44o.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/themes/custom/certainteed/util/YTAutoplay.js?tgeui0" type="module"></script>
+<script src="/sites/default/files/js/js_RGuXlFnuStWEgkdYubA4MSPnLiepelgp1cn526CZqeQ.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/themes/custom/certainteed/components/02-molecules/modal/modal.js?tgeui0" type="module"></script>
+<script src="/sites/default/files/js/js_Ud8WD9cb5JYiHZtRTlEFJOiNznajSC2lRvGXrm_GW3k.js?scope=footer&amp;delta=4&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/themes/custom/certainteed/components/03-organisms/gallery-slider/gallery-slider.js?tgeui0" type="module"></script>
+<script src="/sites/default/files/js/js_O0sn9uKN6usQYoR0eLiaG5EWOdODEfR4yJB7fDO0LUw.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/themes/custom/certainteed/react-app/build/static/js/main.js?tgeui0"></script>
+<script src="/themes/custom/certainteed/components/00-base/common/heading-ids.js?tgeui0" type="module"></script>
+<script src="https://certainteed--full.sandbox.my.site.com/ESWCertainTeedWebChat1764624761932/assets/js/bootstrap.min.js"></script>
+<script src="https://certainteed.my.site.com/ESWCertainTeedWebChat1771561301787/assets/js/bootstrap.min.js"></script>
+<script src="/sites/default/files/js/js_f5-5xJccKiQfrrpQTm5DHyt53dnhHwOLMnlbJWjaGYY.js?scope=footer&amp;delta=11&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+<script src="/extlink/settings.js"></script>
+<script src="/sites/default/files/js/js_ZpdwaOo-oSeB0VBli4MagIjPHBw39fERsudJ2zqRNEM.js?scope=footer&amp;delta=13&amp;language=en&amp;theme=certainteed&amp;include=eJxtkVFywyAMRC9kwuSj52FkUI0SGVEQdtzT126btKT90UhvNcus8FgUKClisF7BjJASlsH_whMwY9lMZQrPEssI3CORidFkBo_VQFPxMmdGxW4tYpH_HouiNYt2bMZAcD4HnDpcIxQ0Gqn2WEGfyEoZiwn4Co17a8WbmnWrtG69eVNi0s0kWDq-7DcQE3Xml8Gr81LQBqp73M29NfJXVyPlhxT3defr4samKunBm85OC_jrEV9dAIXdAcvjoupeKQUHrmC23eQu9ZAnFBYPSpLsvTm4JNTSqtp7M_yYjxhhISl12GMzpasNpWXg0_c4fH2eU5jstJfn-QQXuPVwHhjeN3uUYSFc62cWh7csRe0f8gFusPNR"></script>
+
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0ad3eb76b71e639',t:'MTc4MTMxMzMzNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
