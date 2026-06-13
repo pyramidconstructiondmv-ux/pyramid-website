@@ -1,0 +1,20 @@
+# Cloudflare Pages — clean URL redirects
+# These let /roofing work instead of requiring /roofing.html
+
+/roofing              /roofing.html              200
+/windows              /windows.html              200
+/doors                /doors.html                200
+/gutters              /gutters.html              200
+/siding               /siding.html               200
+/storm-damage         /storm-damage.html         200
+/fascia-trim          /fascia-trim.html          200
+/about                /about.html                200
+/reviews              /reviews.html              200
+/contact              /contact.html              200
+/service-areas        /service-areas.html        200
+/manassas-roofing     /manassas-roofing.html     200
+/fairfax-windows      /fairfax-windows.html      200
+/ashburn-gutters      /ashburn-gutters.html      200
+/loudoun-roofing      /loudoun-roofing.html      200
+/northern-virginia-exterior  /northern-virginia-exterior.html  200
+/prince-william-siding       /prince-william-siding.html       200
