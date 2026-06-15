@@ -188,50 +188,111 @@
 
 <!-- ===== REVIEWS ===== -->
 <section class="section">
+  <style>
+    .rc-region{position:relative;padding:0 3.5rem}
+    .rc-outer{overflow:hidden}
+    .rc-track{display:flex;gap:1.5rem;transition:transform .52s cubic-bezier(.4,0,.2,1);will-change:transform}
+    .rc-slide{flex:0 0 calc(33.333% - 1rem);min-width:0;display:flex;flex-direction:column}
+    .rc-slide .review-card{flex:1;margin:0;display:flex;flex-direction:column}
+    .rc-slide .review-text{flex:1}
+    .rc-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;border:none;font-size:1.85rem;line-height:1;cursor:pointer;box-shadow:0 4px 20px rgba(0,33,107,.22);transition:background .2s,box-shadow .2s,transform .2s;display:flex;align-items:center;justify-content:center;padding:0}
+    .rc-arrow:hover{background:var(--navy-dk);box-shadow:0 6px 28px rgba(0,33,107,.38);transform:translateY(-50%) scale(1.09)}
+    .rc-arrow:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+    .rc-prev{left:0}.rc-next{right:0}
+    .rc-dots{display:flex;justify-content:center;align-items:center;gap:.45rem;margin-top:1.5rem}
+    .rc-dot{width:8px;height:8px;border-radius:100px;background:#d1d5db;border:none;cursor:pointer;padding:0;transition:background .3s,width .3s}
+    .rc-dot.active{background:var(--navy);width:26px}
+    .rc-gbadge{display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--gray-500,#6b7280);font-weight:600;margin-top:auto;padding-top:.75rem;border-top:1px solid var(--gray-200,#e5e7eb)}
+    @media(max-width:1023px){.rc-slide{flex:0 0 calc(50% - .75rem)}}
+    @media(max-width:767px){.rc-slide{flex:0 0 100%}.rc-region{padding:0}.rc-arrow{display:none}}
+  </style>
   <div class="container">
     <div class="section-header center">
       <div class="label">What Customers Say</div>
       <h2 class="section-title">What Northern Virginia Homeowners Say</h2>
       <p class="section-desc">Unfiltered feedback from Northern Virginia homeowners who hired Pyramid Construction DMV.</p>
     </div>
-    <div class="reviews-grid">
-      <div class="review-card reveal delay-1">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"Patched up roof really well. Used to have holes and drainage of siding wasn't that great. Pyramid Construction is easy to work with and provides a lot of options for customers and has the customer best interest at heart."</p>
-        <div class="review-name">Cam</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+    <div class="rc-region" id="rcRegion">
+      <div class="rc-outer" id="rcOuter">
+        <div class="rc-track" id="rcTrack">
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Patched up roof really well. Used to have holes and drainage of siding wasn't that great. Pyramid Construction is easy to work with and provides a lot of options for customers and has the customer best interest at heart."</p>
+            <div class="review-name">Cam</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"One of the best in the market. Zaid's honest recommendation helped me significantly reduce project costs. What stood out about hiring Pyramid was not just their timely completion, but also the complimentary consultation."</p>
+            <div class="review-name">Arzaan Shaikh</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Pyramid Construction did a great job installing my windows. Zaid was great to work with — friendly, professional, and always responsive throughout the project. The installation was done on time, everything was left clean."</p>
+            <div class="review-name">Fawad Shaikh</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"I had the worst experience prior to working with Zaid. He explained every detail and gave me a very competitive price. Clean work and very professional team. I highly recommend this company."</p>
+            <div class="review-name">Sara Haggag</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"They replaced all our windows and the difference in our energy bill was noticeable immediately. Professional crew, no mess left behind, and they walked us through everything. Would absolutely hire again."</p>
+            <div class="review-name">Michael T. — Ashburn, VA</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Awesome work. Prompt, attention to detail, and very kind. Breaks down exactly what you will get."</p>
+            <div class="review-name">George W. Roycroft</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Got three quotes for a full roof replacement and Pyramid came in fair, explained everything clearly, and actually showed up when they said they would. The job was done in a day and the cleanup was spotless. Highly recommend."</p>
+            <div class="review-name">Jennifer R. — Leesburg, VA</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Excellent service and very professional team. Honest, hardworking, and great to work with. Highly recommend Pyramid Construction DMV for anyone looking for quality work!"</p>
+            <div class="review-name">Hooriah Waseem</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Pyramid Construction was efficient and fast!"</p>
+            <div class="review-name">Ehisam Nasredein</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Very well at communicating."</p>
+            <div class="review-name">Fabvv22</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Great overall customer service."</p>
+            <div class="review-name">Where You At Chris</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+          <div class="rc-slide"><div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Very professional and hardworking, I would recommend them to anybody."</p>
+            <div class="review-name">Jaime Alvarez</div>
+            <div class="rc-gbadge"><svg width="13" height="13" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
+          </div></div>
+        </div>
       </div>
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"One of the best in the market. Zaid's honest recommendation helped me significantly reduce project costs. What stood out about hiring Pyramid was not just their timely completion, but also the complimentary consultation."</p>
-        <div class="review-name">Arzaan Shaikh</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
-      </div>
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"They replaced all our windows and the difference in our energy bill was noticeable immediately. Professional crew, no mess left behind, and they walked us through everything. Would absolutely hire again."</p>
-        <div class="review-name">Michael T. — Ashburn, VA</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
-      </div>
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"I had the worst experience prior to working with Zaid. He explained every detail and gave me a very competitive price. Clean work and very professional team. I highly recommend this company."</p>
-        <div class="review-name">Sara Haggag</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
-      </div>
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"Awesome work. Prompt, attention to detail, and very kind. Breaks down exactly what you will get."</p>
-        <div class="review-name">George W. Roycroft</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
-      </div>
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <p class="review-text">"Got three quotes for a full roof replacement and Pyramid came in fair, explained everything clearly, and actually showed up when they said they would. The job was done in a day and the cleanup was spotless. Highly recommend."</p>
-        <div class="review-name">Jennifer R. — Leesburg, VA</div>
-        <div class="review-platform"><svg width="14" height="14" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg> Google Review</div>
-      </div>
+      <button class="rc-arrow rc-prev" id="rcPrev" aria-label="Previous reviews">&#8249;</button>
+      <button class="rc-arrow rc-next" id="rcNext" aria-label="Next reviews">&#8250;</button>
     </div>
+    <div class="rc-dots" id="rcDots"></div>
     <div style="text-align:center;margin-top:2rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
       <a href="https://share.google/6MjSduVZNhITtfzyX" target="_blank" rel="noopener" class="g-btn">
         <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
@@ -240,6 +301,55 @@
       <a href="/reviews.html" class="btn btn-outline-navy">All Reviews</a>
     </div>
   </div>
+  <script>
+  (function(){
+    var track=document.getElementById('rcTrack');
+    var slides=Array.from(track.querySelectorAll('.rc-slide'));
+    var total=slides.length;
+    var dotsEl=document.getElementById('rcDots');
+    var cur=0,timer;
+    function pp(){return window.innerWidth>=1024?3:window.innerWidth>=768?2:1;}
+    function pgs(){return Math.ceil(total/pp());}
+    function go(n){
+      var pages=pgs(),p=pp();
+      cur=((n%pages)+pages)%pages;
+      var sw=slides[0].offsetWidth+24;
+      track.style.transform='translateX(-'+(cur*p*sw)+'px)';
+      buildDots();
+    }
+    function buildDots(){
+      var pages=pgs();
+      dotsEl.innerHTML='';
+      for(var i=0;i<pages;i++){
+        (function(idx){
+          var d=document.createElement('button');
+          d.className='rc-dot'+(idx===cur?' active':'');
+          d.setAttribute('aria-label','Go to page '+(idx+1));
+          d.onclick=function(){go(idx);reset();};
+          dotsEl.appendChild(d);
+        })(i);
+      }
+    }
+    function reset(){
+      clearInterval(timer);
+      timer=setInterval(function(){go(cur+1);},4500);
+    }
+    document.getElementById('rcPrev').onclick=function(){go(cur-1);reset();};
+    document.getElementById('rcNext').onclick=function(){go(cur+1);reset();};
+    var outer=document.getElementById('rcOuter');
+    outer.addEventListener('mouseenter',function(){clearInterval(timer);});
+    outer.addEventListener('mouseleave',function(){reset();});
+    var tx=0;
+    outer.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;},{passive:true});
+    outer.addEventListener('touchend',function(e){
+      var dx=tx-e.changedTouches[0].clientX;
+      if(Math.abs(dx)>40){go(dx>0?cur+1:cur-1);reset();}
+    },{passive:true});
+    buildDots();
+    reset();
+    window.addEventListener('resize',function(){cur=0;go(0);});
+  })();
+  </script>
 </section>
 
 <!-- ===== INTERIOR CALLOUT ===== -->
