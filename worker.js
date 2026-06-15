@@ -3,16 +3,17 @@ export default {
     const url = new URL(request.url);
     let pathname = url.pathname;
 
-    // For paths with no file extension (including /), add .html
-    // Exception: root / stays as / so ASSETS serves index.html automatically
-    if (pathname !== '/' && !pathname.match(/\.[a-zA-Z0-9]+$/)) {
-      pathname = pathname + '.html';
-      const assetUrl = new URL(request.url);
-      assetUrl.pathname = pathname;
-      return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
+    // Root → index.html
+    if (pathname === '/' || pathname === '') {
+      return Response.redirect(url.origin + '/index.html', 302);
     }
 
-    // Root / and all other paths (already have extension): fetch as-is
-    return env.ASSETS.fetch(request);
+    // Extensionless path → add .html
+    if (!pathname.match(/\.[a-zA-Z0-9]+$/)) {
+      return Response.redirect(url.origin + pathname + '.html', 302);
+    }
+
+    // Has an extension but no matching file — redirect to homepage
+    return Response.redirect(url.origin + '/index.html', 302);
   }
 };
