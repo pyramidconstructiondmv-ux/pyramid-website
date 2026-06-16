@@ -49,6 +49,8 @@ function navHTML() {
             <li><a href="/siding.html">Siding</a></li>
             <li><a href="/storm-damage.html">Storm Damage</a></li>
             <li><a href="/fascia-trim.html">Fascia &amp; Trim Repair</a></li>
+            <li><a href="/garage-doors.html">Garage Doors</a></li>
+            <li><a href="/interior.html">Interior Renovation</a></li>
           </ul>
         </li>
         <li><a href="/about.html">About</a></li>
@@ -82,6 +84,8 @@ function navHTML() {
             <li><a href="/siding.html">Siding</a></li>
             <li><a href="/storm-damage.html">Storm Damage</a></li>
             <li><a href="/fascia-trim.html">Fascia &amp; Trim Repair</a></li>
+            <li><a href="/garage-doors.html">Garage Doors</a></li>
+            <li><a href="/interior.html">Interior Renovation</a></li>
           </ul>
         </details>
       </li>
@@ -129,6 +133,8 @@ function footerHTML() {
           <a href="/siding.html">Siding</a>
           <a href="/storm-damage.html">Storm Damage</a>
           <a href="/fascia-trim.html">Fascia &amp; Trim Repair</a>
+          <a href="/garage-doors.html">Garage Doors</a>
+          <a href="/interior.html">Interior Renovation</a>
         </div>
       </div>
       <div>
