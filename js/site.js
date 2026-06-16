@@ -109,7 +109,7 @@ function footerHTML() {
       <div>
         <img src="/assets/logo/logo.png" alt="Pyramid Construction DMV" class="foot-logo" width="60" height="60" loading="lazy">
         <div class="foot-name">Pyramid Construction DMV</div>
-        <p class="foot-tagline">Northern Virginia's trusted exterior contractor. Free inspections, honest pricing, quality work.</p>
+        <p class="foot-tagline">Northern Virginia's trusted general contractor. Free inspections, honest pricing, quality work.</p>
         <div class="foot-license">${SVG.shield} Licensed, Bonded &amp; Insured in Virginia</div>
         <div class="foot-contact">${SVG.phone}<a href="${PHONE_HREF}">${PHONE}</a></div>
         <div class="foot-contact">${SVG.email}<a href="${EMAIL_HREF}" style="word-break:break-all">${EMAIL}</a></div>
