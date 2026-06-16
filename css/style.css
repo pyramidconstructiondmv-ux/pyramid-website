@@ -281,7 +281,7 @@ a.card{cursor:pointer}
 @media(min-width:500px){.cta-btns{flex-direction:row}}
 
 /* ---------- PAGE HERO (inner pages) ---------- */
-.page-hero{background:linear-gradient(150deg,var(--navy-dk) 0%,var(--navy) 70%);padding:3.75rem 0 3.25rem;text-align:center;position:relative;overflow:hidden}
+.page-hero{background:linear-gradient(150deg,var(--navy-dk) 0%,var(--navy) 50%,rgba(143,7,34,.88) 85%,rgba(191,10,48,.82) 100%);padding:3.75rem 0 3.25rem;text-align:center;position:relative;overflow:hidden}
 .page-hero.hero-red-gradient{background:linear-gradient(180deg,var(--navy-dk) 0%,var(--navy) 45%,rgba(143,7,34,.9) 80%,rgba(191,10,48,.85) 100%)}
 .page-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(to top,var(--white),transparent)}
 .breadcrumb{font-size:.78rem;color:rgba(255,255,255,.5);margin-bottom:.8rem}
